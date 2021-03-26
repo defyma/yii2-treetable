@@ -1,6 +1,6 @@
 yii2-treetable
 =============
-Form from: https://github.com/ASlatius/yii2-treetable
+Fork from: https://github.com/ASlatius/yii2-treetable
 
 Yii 2.0 implementation of tree table behavior using jquery-treetable plugin. Provides a Gridview like widget.
 - jquery-treetable - http://ludo.cubicphuse.nl/jquery-treetable/
