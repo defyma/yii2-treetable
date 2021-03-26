@@ -1,5 +1,6 @@
 yii2-treetable
 =============
+Form from: https://github.com/ASlatius/yii2-treetable
 
 Yii 2.0 implementation of tree table behavior using jquery-treetable plugin. Provides a Gridview like widget.
 - jquery-treetable - http://ludo.cubicphuse.nl/jquery-treetable/
@@ -17,14 +18,14 @@ $ php composer.phar require slatiusa/yii2-treetable
 or add
 
 ```
-"slatiusa/yii2-treetable": "*"
+"defyma/yii2-treetable": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
 
 ## Usage
 
-Use ```slatiusa\treetable\Treetable``` widget instead of a Yii Gridview.
+Use ```defyma\treetable\Treetable``` widget instead of a Yii Gridview.
 The example below will collapse every even row in the table below the odd one above it.
 ```
     <?= Treetable::widget([
