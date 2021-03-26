@@ -1,14 +1,18 @@
 {
-    "name": "slatiusa/yii2-treetable",
+    "name": "defyma/yii2-treetable",
     "description": "Yii 2.0 implementation of tree table behavior using jquery-treetable plugin.",
     "keywords": ["yii2", "extension", "Gridview", "widget", "table", "tree", "treetable", "jquery"],
-    "homepage": "https://github.com/ASlatius/yii2-treetable",
+    "homepage": "https://github.com/defyma/yii2-treetable",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
             "name": "Arno Slatius",
             "email": "a.slatius@gmail.com"
+        },
+        {
+            "name": "Defy M Aminuddin",
+            "email": "defyma85@gmail.com"
         }
     ],
     "require": {
@@ -16,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "slatiusa\\": ""
+            "defyma\\": ""
         }
     }
 }

@@ -1,26 +1,30 @@
 <?php
 
+namespace defyma\treetable;
+use yii\web\AssetBundle;
+
 /**
  * @copyright Copyright &copy; Arno Slatius 2017
  * @package yii2-treetable
- * @version 1.0
+ * @version 1.1
+ *
+ * 29-03-2021 (defy): fix namespace AssetBundle
  */
 
-namespace slatiusa\treetable;
 
-class TreetableAsset extends \Yii\web\AssetBundle {
+class TreetableAsset extends AssetBundle {
 
-    public $sourcePath = '@bower/jquery-treetable'; 
-    public $css = [ 
-        'css/jquery.treetable.css', 
+    public $sourcePath = '@bower/jquery-treetable';
+    public $css = [
+        'css/jquery.treetable.css',
     ];
-    public $js = [ 
-        'jquery.treetable.js', 
+    public $js = [
+        'jquery.treetable.js',
     ];
     public $depends = [
        'yii\web\JqueryAsset',
     ];
-    
+
     /**
      * @inheritdoc
      */
