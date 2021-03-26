@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 /**
  * @copyright Copyright &copy; Arno Slatius 2017
  * @package yii2-treetable
- * @version 1.1
+ * @version 1.0.2
  *
  * 29-03-2021 (defy): fix namespace AssetBundle
  */
